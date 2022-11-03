@@ -10,6 +10,6 @@ $MyWallpaper="C:\Windows\System32\wallpaper.bmp"
 					        }
 				      }
 			      } 
-        '@
+'@
 add-type $code 
 [Win32.Wallpaper]::SetWallpaper($MyWallpaper)
